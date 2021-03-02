@@ -64,7 +64,32 @@
     {
       "id": 1,
       "name": "Kelly Clarkson",
-      "workplace": "This'll need to be replaced..."
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jim Masterson",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Gilly Goober",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Mitchell Frankson",
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Bibel Fooster",
+      "locationId": 3
+    },
+    {
+      "id": 6,
+      "name": "God Himself",
+      "locationId": 3
     }
   ],
   "locations": [
@@ -77,6 +102,11 @@
       "id": 2,
       "name": "Nashville South",
       "address": "209 Emory Drive"
+    },
+    {
+      "id": 3,
+      "name": "Midtown",
+      "address": "103 Elliston Place"
     }
   ]
 }
