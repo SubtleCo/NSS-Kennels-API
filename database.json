@@ -45,19 +45,19 @@
   ],
   "customers": [
     {
-      "id": 1,
-      "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
-    },
-    {
-      "id": 2,
+      "email": "Billy@ray.com",
       "name": "Billy Ray Cyrus",
-      "address": "7003 Chestnut Loop"
+      "id": 1
     },
     {
-      "id": 3,
-      "name": "Frank Herbert",
-      "address": "7004 Chest Place"
+      "email": "wario@nintendo.com",
+      "name": "Wario Nintendo",
+      "id": 2
+    },
+    {
+      "email": "frodo@shire.com",
+      "name": "Frodo Baggins",
+      "id": 3
     }
   ],
   "employees": [
