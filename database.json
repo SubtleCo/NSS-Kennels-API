@@ -12,7 +12,17 @@
       "name": "Mercy",
       "breed": "Golden Retriever",
       "customerId": 1,
-      "locationId": 1
+      "locationId": 1,
+      "location": {
+        "id": 1,
+        "name": "Nashville North",
+        "address": "8422 Johnson Pike"
+      },
+      "customer": {
+        "email": "Billy@ray.com",
+        "name": "Billy Ray Cyrus",
+        "id": 1
+      }
     },
     {
       "id": 3,
@@ -37,9 +47,9 @@
     },
     {
       "name": "Jimmy Dean",
-      "breed": "Sausage Dog",
-      "locationId": 1,
-      "customerId": 2,
+      "breed": "Weiner Dog",
+      "locationId": 3,
+      "customerId": 3,
       "id": 6
     }
   ],
