@@ -105,13 +105,86 @@
   "locations": [
     {
       "id": 1,
-      "name": "Nashville North",
-      "address": "8422 Johnson Pike"
+      "name": "Nashville North Crampus",
+      "address": "8422 Johnson Pike",
+      "employees": [
+        {
+          "id": 1,
+          "name": "Kelly Clarkson",
+          "locationId": 1
+        },
+        {
+          "id": 2,
+          "name": "Jim Masterson",
+          "locationId": 1
+        }
+      ],
+      "animals": [
+        {
+          "id": 1,
+          "name": "Doodles",
+          "breed": "Poodle",
+          "customerId": 1,
+          "locationId": 1
+        },
+        {
+          "id": 2,
+          "name": "Mercy",
+          "breed": "Golden Retriever",
+          "customerId": 1,
+          "locationId": 1,
+          "location": {
+            "id": 1,
+            "name": "Nashville North",
+            "address": "8422 Johnson Pike"
+          },
+          "customer": {
+            "email": "Billy@ray.com",
+            "name": "Billy Ray Cyrus",
+            "id": 1
+          }
+        }
+      ]
     },
     {
       "id": 2,
       "name": "Nashville South",
-      "address": "209 Emory Drive"
+      "address": "209 Emory Drive",
+      "employees": [
+        {
+          "id": 3,
+          "name": "Gilly Goober",
+          "locationId": 2
+        },
+        {
+          "id": 4,
+          "name": "Mitchell Frankson",
+          "locationId": 2
+        }
+      ],
+      "animals": [
+        {
+          "id": 3,
+          "name": "Frodo Waggins",
+          "breed": "American Browndog",
+          "customerId": 2,
+          "locationId": 2
+        },
+        {
+          "id": 4,
+          "name": "LC",
+          "breed": "Pit Lab",
+          "customerId": 2,
+          "locationId": 2
+        },
+        {
+          "id": 5,
+          "name": "Harrison",
+          "breed": "Honestly who fucking knows",
+          "customerId": 3,
+          "locationId": 2
+        }
+      ]
     },
     {
       "id": 3,
